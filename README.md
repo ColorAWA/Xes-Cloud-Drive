@@ -1,2 +1,13 @@
-# Xes-Network-disk
-Look at README.md specifically. | 具体看README.md。
+# 学而思网盘
+可以让你上传/下载
+利用学而思的Api接口将文件存储到网络之中
+![屏幕截图 2022-11-13 192405](https://user-images.githubusercontent.com/99065905/201519272-a40a0379-5b1c-4eed-a63f-9f538063f40c.png)
+
+# 上传
+可以将文件上传至网络
+
+# 下载
+可以下载存储在该网盘中的文件
+
+# 鸣谢
+感谢王若宇找到的API接口
