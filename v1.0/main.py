@@ -4,12 +4,11 @@ try:
     import wx
 except ModuleNotFoundError:
     from tkinter.messagebox import showerror,askyesno
+    from os import system
     showerror('提示','您还没有安装wxPython！')
-    yes_no = askyesno('选择','是否要观看安装教程？')
+    yes_no = askyesno('选择','是否安装？')
     if yes_no == True:
-        web('https://code.xueersi.com/home/project/detail?lang=code&pid=34710606&version=offline&form=python&langType=python')
-    del web,showerror,askyesno
-    exit()
+        system('pip install wxPython')
 
 import os,hashlib
 import shutil,requests,json
@@ -21,7 +20,7 @@ class up:
         params = {"scene": "offline_python_assets", "md5": md5, "filename": filename}
         response = requests.get(url=url, params=params)
         data = json.loads(response.text)['data']
-        #我破解到的C站api
+        # 我破解到的C站api
         return data
         
     def uploadAbsolutePath(self, filepath):
