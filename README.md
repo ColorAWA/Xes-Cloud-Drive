@@ -3,7 +3,7 @@
 利用学而思的Api接口将文件存储到网络之中
 
 
-![屏幕截图 2022-11-13 192405](https://user-images.githubusercontent.com/99065905/201519272-a40a0379-5b1c-4eed-a63f-9f538063f40c.png)
+![屏幕截图 2022-11-13 192405](https://livefile.xesimg.com/programme/python_assets/dcff06956a375384afcc4ab0d7a90437.png)
 
 # 上传
 可以将文件上传至网络
